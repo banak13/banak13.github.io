@@ -1,0 +1,219 @@
+/*Resetuje marinesy wew. i zew. i okreslamy domyslny font na Times New Roman*/
+* {
+        margin: 0;
+        padding: 0;
+        font-family:  Times New Roman, Arial;
+        box-sizing: border-box;
+}
+
+body
+{
+        background-color: #ddb;
+}
+/* Kontener zbiorczy - czesto stosowana praktyka*/
+
+#wrapper
+{
+        max-width: auto;
+        /* wypełnia 100% miejsca ale nie nie wiecej niż 1000px szerokości*/
+        margin: 0 auto;
+        /* 10px marginesu na dole oraz wyśrodkowanie*/
+        background-color: white;
+}
+/*obrazek w headerze*/
+header img {
+        width: 100%;
+        heigth: 100%;
+        display: block;
+ }
+
+.home.main p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+nav {
+    overflow: hidden;
+
+}
+a.menu{
+    dis
+}
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 15px 30px;
+    font-size: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+nav a:hover {
+    background-color: crimson;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-widht: 800px){
+        nav a {
+            width: 50%;
+            font-size: 22px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+@media (max-widht: 500px){
+        nav a {
+            width: 100%;
+    }
+    }
+.active
+{
+    background-color: crimson;
+}
+
+article
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+article h1
+{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    #background-color: orange;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
+img.right
+{
+    float: left;
+    margin: 10px;
+    width: 25%;
+    border-radius: 50% 50%;
+}
+
+article p
+ {
+    text-align: justyfy;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+
+ }
+
+iframe
+{
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+section{
+    padding:0;
+    margin:0;
+    display: block;
+}
+
+#mainImage iframe{
+    position:relative;
+    top:0;
+    left: 0;
+    padding:0;
+    display:block;
+    }
+#mainImage iframe html, body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Awesome"
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 1 rem 0 3rem 0;
+
+}
+.socials li{
+    marign: 0 10px;
+
+}
+.socials a{
+    text-decoraton: none;
+    color: #fff;
+}
+.social a i{
+
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: aqua;
+}
+
+.footer-bottom{
+    backgrund: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
